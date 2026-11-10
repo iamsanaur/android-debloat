@@ -1,0 +1,114 @@
+# never-remove.txt - SAFETY DENYLIST
+#
+# debloat.sh refuses to touch anything matching these patterns, even if it
+# appears in a list you pass to it. Removing these commonly causes bootloops,
+# no calls/SMS, no network, a broken lock screen, or no way to restore apps.
+# A trailing * matches a prefix. Edit only if you really know what you're doing.
+
+# --- Core Android ---
+android
+com.android.systemui
+com.android.settings
+com.android.shell
+com.android.phone
+com.android.server.telecom
+com.android.providers.*
+com.google.android.providers.*
+com.android.packageinstaller
+com.google.android.packageinstaller
+com.android.permissioncontroller
+com.google.android.permissioncontroller
+com.android.externalstorage
+com.android.documentsui
+com.google.android.documentsui
+com.android.keychain
+com.android.certinstaller
+com.android.location.fused
+com.android.networkstack*
+com.google.android.networkstack*
+com.android.wifi.*
+com.google.android.wifi.*
+com.android.bluetooth
+com.google.android.bluetooth
+com.android.nfc
+com.android.se
+com.android.ims*
+com.android.carrierconfig
+com.android.stk
+com.android.mms.service
+com.android.cellbroadcast*
+com.google.android.cellbroadcast*
+com.android.emergency
+com.android.ext.services
+com.google.android.ext.services
+com.android.webview
+com.google.android.webview
+com.android.inputmethod.latin
+com.android.launcher*
+com.android.incallui
+com.android.dialer
+com.android.contacts
+com.android.vpndialogs
+com.android.modulemetadata
+com.google.android.modulemetadata
+
+# --- Google core (removing breaks most apps, notifications and Play) ---
+com.google.android.gms
+com.google.android.gsf
+com.android.vending
+com.google.android.setupwizard
+com.google.android.apps.nexuslauncher
+com.google.android.dialer
+com.google.android.contacts
+com.google.android.apps.messaging
+com.google.android.inputmethod.latin
+
+# --- Tools used by this procedure (don't saw off the branch you sit on) ---
+com.termux
+com.termux.*
+moe.shizuku.privileged.api
+io.github.samolego.canta
+com.draco.ladb
+eu.sisik.hackendebug*
+
+# --- Samsung ---
+com.samsung.android.knox*
+com.sec.android.app.launcher
+com.samsung.android.dialer
+com.samsung.android.incallui
+com.samsung.android.messaging
+com.samsung.android.app.contacts
+com.samsung.android.honeyboard
+com.samsung.android.authfw
+com.samsung.android.biometrics*
+com.samsung.android.providers.*
+com.sec.android.provider.*
+com.sec.phone
+com.sec.imsservice
+com.samsung.android.lool
+com.samsung.android.sm.devicesecurity
+com.sec.android.app.SecSetupWizard
+
+# --- Xiaomi / Redmi / POCO ---
+com.miui.securitycenter
+com.miui.securityadd
+com.miui.global.packageinstaller
+com.lbe.security.miui
+com.miui.home
+com.mi.android.globallauncher
+com.miui.system
+com.miui.rom
+com.miui.core
+com.xiaomi.finddevice
+com.android.updater
+
+# --- OnePlus / OPPO / realme ---
+com.oplus.safecenter
+com.coloros.safecenter
+com.oplus.securitypermission
+com.oneplus.security
+com.oplus.appplatform
+com.oplus.wirelesssettings
+com.oplus.battery
+com.coloros.oppoguardelf
+com.oplus.athena

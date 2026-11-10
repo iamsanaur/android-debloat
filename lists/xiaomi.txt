@@ -1,0 +1,35 @@
+# xiaomi.txt - Xiaomi / Redmi / POCO (MIUI / HyperOS)
+#
+# Active lines   = low-risk. "#opt " = preference. "#adv " = may break features.
+# Xiaomi tip: also enable Developer options > "USB debugging (Security settings)"
+# if you get "SecurityException" errors (needs a SIM and a Mi account sign-in).
+
+com.miui.analytics                              # MIUI Analytics (telemetry)
+com.miui.msa.global                             # MIUI System Ads
+com.miui.daemon                                 # MIUI Daemon (telemetry)
+com.miui.bugreport                              # Bug report
+com.miui.miservice                              # Services & feedback
+com.miui.yellowpage                             # Yellow Pages
+com.miui.hybrid                                 # Quick Apps
+com.miui.hybrid.accessory                       # Quick Apps helper
+com.miui.android.fashiongallery                 # Wallpaper carousel / Glance
+com.xiaomi.glgm                                 # Games
+com.xiaomi.mipicks                              # GetApps store
+com.mi.globalbrowser                            # Mi Browser
+com.miui.videoplayer                            # Mi Video
+com.miui.player                                 # Mi Music
+
+#opt com.xiaomi.midrop                          # ShareMe
+#opt com.miui.notes                             # Notes
+#opt com.miui.compass                           # Compass
+#opt com.miui.weather2                          # Weather (breaks weather widget)
+#opt com.miui.cleaner                           # Cleaner
+#opt com.mipay.wallet.in                        # Mi Pay (India)
+#opt com.xiaomi.payment                         # Mi Payment
+#opt com.facemoji.lite.xiaomi                   # Facemoji keyboard (set another keyboard first!)
+
+#adv com.xiaomi.joyose                          # Joyose: perf/thermal profiles in games
+#adv com.miui.cloudservice                      # Xiaomi Cloud: breaks cloud sync, Find Device features
+#adv com.xiaomi.discover                        # System apps updater
+#adv com.mi.android.globalFileexplorer          # File Manager (keep one file manager!)
+#adv com.miui.gallery                           # Gallery (install another first)

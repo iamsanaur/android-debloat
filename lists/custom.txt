@@ -1,0 +1,6 @@
+# custom.txt - your own additions
+#
+# Find package names with:  sh scripts/debloat.sh list <word>
+# e.g.  sh scripts/debloat.sh list weather
+# Add one package per line. Research each one first (see docs/PROCEDURE.md, step 5).
+

@@ -1,0 +1,34 @@
+# third-party-preloads.txt - partner apps preloaded by many manufacturers/carriers
+#
+# Active lines   = low-risk. "#opt " = preference.
+# If you actually use one of these (e.g. Facebook), delete the line or use the
+# Play Store version instead (installed apps are "user" apps, not these stubs).
+
+com.facebook.system                             # Facebook App Installer
+com.facebook.appmanager                         # Facebook App Manager
+com.facebook.services                           # Facebook Services
+com.facebook.katana                             # Facebook (preloaded)
+com.instagram.android                           # Instagram (preloaded)
+com.linkedin.android                            # LinkedIn
+com.netflix.partner.activation                  # Netflix activation stub
+com.netflix.mediaclient                         # Netflix
+com.spotify.music                               # Spotify
+com.amazon.mShop.android.shopping               # Amazon Shopping
+com.amazon.appmanager                           # Amazon app manager
+com.booking                                     # Booking.com
+com.tripadvisor.tripadvisor                     # Tripadvisor
+com.ebay.mobile                                 # eBay
+com.ebay.carrier                                # eBay carrier stub
+com.einnovation.temu                            # Temu
+com.zhiliaoapp.musically                        # TikTok
+com.king.candycrushsaga                         # Candy Crush Saga
+com.aura.oobe.samsung                           # AppCloud / Aura (carrier app pusher)
+com.ironsource.appcloud.oobe                    # AppCloud (ironSource app pusher)
+com.dti.folderlauncher                          # Digital Turbine app pusher
+com.LogiaGroup.LogiaDeck                        # Digital Turbine / Logia ads
+com.digitalturbine.ignite                       # Digital Turbine Ignite (silent installer)
+
+#opt com.microsoft.skydrive                     # OneDrive
+#opt com.microsoft.office.officehubrow          # Microsoft 365 / Office
+#opt com.microsoft.office.outlook               # Outlook
+#opt com.whatsapp                               # WhatsApp (preloaded)

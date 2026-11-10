@@ -1,0 +1,48 @@
+# samsung.txt - Samsung Galaxy (One UI)
+#
+# Active lines   = low-risk. "#opt " = preference. "#adv " = may break features.
+# One UI 6+: turn OFF Settings > Security and privacy > Auto Blocker first,
+# otherwise adb/USB commands are blocked.
+
+com.samsung.android.bixby.agent                 # Bixby Voice
+com.samsung.android.bixby.wakeup                # "Hi Bixby" wake word
+com.samsung.android.app.spage                   # Samsung Free / Bixby Home panel
+com.samsung.android.bixbyvision.framework       # Bixby Vision
+com.samsung.android.visionintelligence          # Bixby Vision helper
+com.samsung.android.app.tips                    # Tips
+com.samsung.android.ardrawing                   # AR Doodle
+com.samsung.android.aremoji                     # AR Emoji
+com.samsung.android.aremojieditor               # AR Emoji editor
+com.samsung.android.arzone                      # AR Zone
+com.samsung.android.stickercenter               # Sticker center
+com.samsung.android.livestickers                # Live stickers
+com.samsung.android.tvplus                      # Samsung TV Plus
+com.samsung.android.kidsinstaller               # Kids mode installer
+com.sec.android.app.kidshome                    # Kids home
+com.samsung.android.mateagent                   # Galaxy Friends
+com.samsung.android.app.watchmanagerstub        # Galaxy Wearable stub
+com.samsung.android.service.peoplestripe        # Edge panel: people
+com.samsung.android.voc                         # Samsung Members
+com.samsung.android.game.gamehome               # Game Launcher
+com.sec.android.app.chromecustomizations        # Chrome bookmarks customisation
+
+#opt com.sec.android.app.sbrowser               # Samsung Internet (install another browser first)
+#opt com.samsung.android.email.provider         # Samsung Email
+#opt com.samsung.android.app.notes              # Samsung Notes
+#opt com.samsung.android.app.reminder           # Reminder
+#opt com.samsung.android.oneconnect             # SmartThings
+#opt com.sec.android.easyMover                  # Smart Switch
+#opt com.samsung.android.smartswitchassistant   # Smart Switch agent
+#opt com.samsung.android.forest                 # Digital Wellbeing (Samsung)
+#opt com.samsung.android.da.daagent             # Dual Messenger
+#opt com.microsoft.appmanager                   # Link to Windows
+#opt com.samsung.android.app.routines           # Modes and Routines
+#opt com.samsung.android.spay                   # Samsung Wallet / Pay
+
+#adv com.samsung.android.game.gametools         # Game Booster overlay
+#adv com.samsung.android.game.gos               # Game Optimizing Service: thermals/perf in games
+#adv com.samsung.android.rubin.app              # Customization Service: smart suggestions
+#adv com.samsung.android.scloud                 # Samsung Cloud: breaks Samsung backup/sync
+#adv com.samsung.android.samsungpass            # Samsung Pass: breaks autofill/biometric logins
+#adv com.samsung.android.bixby.service          # Bixby service: some text-call/translate features
+#adv com.samsung.android.mobileservice          # Samsung Experience Service: breaks Samsung account apps

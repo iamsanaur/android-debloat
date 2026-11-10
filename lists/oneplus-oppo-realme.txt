@@ -1,0 +1,23 @@
+# oneplus-oppo-realme.txt - OnePlus (OxygenOS), OPPO (ColorOS), realme (realme UI)
+#
+# These three share a code base; package names vary between versions.
+# Active lines   = low-risk. "#opt " = preference. "#adv " = may break features.
+# Use `debloat.sh list heytap` / `list oplus` / `list coloros` to see yours.
+
+com.heytap.browser                              # HeyTap / OPPO browser
+com.heytap.market                               # App Market
+com.heytap.pictorial                            # Lock screen magazine
+com.coloros.childrenspace                       # Kid Space
+com.nearme.statistics.rom                       # Usage statistics (telemetry)
+com.oplus.statistics.rom                        # Usage statistics (telemetry, newer)
+
+#opt com.heytap.cloud                           # HeyTap Cloud
+#opt com.oplus.games                            # Games app (newer)
+#opt com.coloros.gamespaceui                    # Game Space (older)
+#opt com.coloros.weather2                       # Weather
+#opt com.coloros.compass2                       # Compass
+#opt com.oneplus.brickmode                      # Zen Mode
+
+#adv com.heytap.usercenter                      # HeyTap/OPPO account: breaks cloud & theme store login
+#adv com.oplus.themestore                       # Theme Store: may reset themes
+#adv com.coloros.filemanager                    # File Manager (keep one file manager!)

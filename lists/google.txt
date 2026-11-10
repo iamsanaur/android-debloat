@@ -1,0 +1,42 @@
+# google.txt - Google preloads (most Android phones)
+#
+# Active lines   = low-risk, rarely-used extras.
+# "#opt " lines  = safe but personal preference: remove "#opt " to include.
+# "#adv " lines  = may break features: read the note, then remove "#adv ".
+# Packages that aren't installed are skipped automatically.
+
+com.google.android.apps.tachyon                 # Meet (old Duo) video calls
+com.google.android.videos                       # Google TV / Play Movies
+com.google.android.apps.books                   # Play Books
+com.google.android.apps.magazines               # Google News
+com.google.android.apps.podcasts                # Google Podcasts (discontinued)
+com.google.android.apps.subscriptions.red       # Google One
+com.google.android.feedback                     # Market feedback agent
+com.google.android.printservice.recommendation  # Print service suggestions
+#opt com.google.android.apps.youtube.music         # YouTube Music
+com.google.android.music                        # Old Play Music (dead)
+com.google.android.apps.youtube.kids            # YouTube Kids
+#opt com.google.android.apps.chromecast.app        # Google Home
+#opt com.google.android.apps.fitness               # Google Fit
+#opt com.google.android.marvin.talkback            # TalkBack (keep if you use accessibility!)
+
+#opt com.google.android.youtube                 # YouTube
+#opt com.google.android.gm                      # Gmail
+#opt com.google.android.apps.maps               # Maps
+#opt com.google.android.apps.photos             # Photos
+#opt com.google.android.apps.docs               # Drive
+#opt com.google.android.keep                    # Keep notes
+#opt com.google.android.calendar                # Calendar (install another first)
+#opt com.google.android.apps.walletnfcrel       # Wallet / Pay
+#opt com.google.android.projection.gearhead     # Android Auto
+#opt com.google.ar.core                         # ARCore (AR camera features)
+#opt com.google.android.apps.wellbeing          # Digital Wellbeing
+#opt com.google.android.apps.nbu.files          # Files by Google (keep one file manager!)
+#opt com.android.chrome                         # Chrome (install another browser first)
+#opt com.google.android.apps.googleassistant    # Assistant shortcut
+
+#adv com.google.android.googlequicksearchbox    # Google app: breaks Assistant, Discover feed, Circle to Search
+#adv com.google.android.as                      # Android System Intelligence: breaks smart text selection, Now Playing, live captions
+#adv com.google.android.tts                     # Speech services: breaks text-to-speech
+#adv com.google.android.partnersetup            # Partner setup: can affect search/carrier customisations
+#adv com.google.android.apps.turbo              # Device Health Services: adaptive battery estimates
